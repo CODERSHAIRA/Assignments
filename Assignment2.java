@@ -9,7 +9,13 @@ public class Assignment2 {
 				System.out.print(" ");
 			}
 			for(int j=0; j<i; j++) {
-				if(i%2==0 && j%2==0) {
+				if(i==4 && j==3) {
+					System.out.print("$ ");
+				}
+				else if(i==4 && j==2) {
+					System.out.print("% ");
+				}
+				else if(i%2==0 && j%2==0) {
 					System.out.print("$ ");
 				}
 				else if(i%2==0 && j%2!=0) {
